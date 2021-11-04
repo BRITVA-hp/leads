@@ -1,0 +1,396 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- foonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&family=Roboto:wght@500;900&display=swap"
+        rel="stylesheet">
+    <!-- font-family: 'Montserrat', sans-serif; -->
+    <!-- font-family: 'Roboto', sans-serif; -->
+    <!-- foonts -->
+
+    <link rel="stylesheet" href="css/main.min.css">
+
+    <title>КУПИ ЛИД</title>
+</head>
+
+<body>
+
+    <div class="modal">
+        <form class="modal-dialog pe-auto">
+            <img src="../img/0-modal/decor.png" alt="decor" class="modal__decor">
+            <div class="modal__content">
+                <div class="modal__close"><img src="../img/0-modal/closed.png" alt="close"></div>
+                <div class="modal__logo"><img src="../img/0-modal/modal-logo.png" alt="logo"></div>
+    
+                <h2 class="h1 title-modal">Хочу заявки!</h2>
+                <p class="modal-text">Для получения лидов, оставьте номер телефона и ваше имя. Наш менеджер расскажет вам все подробнее.</p>
+    
+                <input class="modal-input" placeholder="Ваше Имя" type="text">
+                <input class="modal-input" placeholder="+7 (___) ___ - __ - __" type="tel">
+    
+                <button class="btn-general modal__btn">Хочу заявки!</button>
+            </div>
+                
+        </form>
+    </div>
+    
+    
+    <div class="modal modal--active modal-thanks" style="display: none;">
+        <div class="modal-thanks__dialog">
+            <img src="../img/0-modal/decor.png" alt="decor" class="modal__decor">
+            <img src="img/0-modal/closed.png" class="modal-thanks__close">
+            <img src="../img/0-modal/modal-logo.png" class="modal-thanks__logo">
+            <h2 class="title-modal text-center mb-5">Заявка <br>
+                отправлена</h2>
+            <p class="modal-text">Мы получили вашу заявку. <br> Наш менеджер свяжится с вами.</p>
+        </div>
+    </div>
+    <section class="header mt-3 mt-md-5">
+        <div class="container">
+            <div class="header-main position-relative">
+                <div class="header-block">
+                    <div class="header-nav w-100 d-flex align-items-center d-md-block justify-content-between">
+                        <img class="logo" src="../img/1-header/logo.png" alt="">
+                        <img class="d-block d-md-none" src="../img/1-header/phone-mob.png" alt="">
+                    </div>
+                    <h1 class="title-header position-relative">
+                        Нужны <br> <span>качественные <br> лиды</span>
+                        <img class="title-header-decor" src="../img/1-header/title-decor.png" alt="">
+                    </h1>
+    
+                    <img class="header-img position-relative d-block d-md-none" src="../img/1-header/header-img.png" alt="">
+    
+                    <div class="header-list d-flex align-items-center flex-column-reverse flex-md-row py-0 py-md-2 py-lg-3">
+                        <button class="btn-general btn-header">Хочу лиды</button>
+                        <ul class="header-list-header d-flex align-items-center flex-column flex-md-row">
+                            <li class="header-list-item">Автокредит<br>
+                                (лизинг)</li>
+                            <li class="header-list-item">Потребительские<br>
+                                кредиты</li>
+                            <li class="header-list-item">Под залог <br>
+                                ПТС</li>
+                            <li class="header-list-item">МФО</li>
+                        </ul>
+                    </div>
+                </div>
+                <img class="header-img d-none d-md-block" src="../img/1-header/header-img.png" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="advantages">
+        <div class="container">
+            <div class="advantages-main">
+                <h2 class="advantages__title title-medium mb-lg-4 mb-3">Преимущества</h2>
+                <p class="advantages__subtitle mb-4 mb-lg-5">Мы создали комплексные решения, которые способны <br>
+                    удовлетворить 101% потребностей и задач клиентов в области продвижения</p>
+                
+                <div class="advantages__box mb-2">
+                    <div class="row">
+                        <div class="advantages__card mb-4 mb-lg-5 pe-lg-4 col-sm-6 col-lg-4">
+                            <img src="../img/2-advantages/ad-1.png" alt="logo" class="mb-3 advantages__card__img">
+                            <p class="after-bottom mb-2 advantages__card__title">Генерируем от 30 до 3 000 <br> заявок в день</p>
+                            <p class="advantages__card__text">Работаем со множество городами партнерами и приводим в каждый из них от 30 до 3 000 качественных заявок в сутки</p>
+                        </div>
+    
+                        <div class="advantages__card mb-4 mb-lg-5 pe-lg-4 col-sm-6 col-lg-4">
+                            <img src="../img/2-advantages/ad-2.png" alt="logo" class="mb-3 advantages__card__img">
+                            <p class="after-bottom mb-2 advantages__card__title">Бесплатная замена <br> некачественных заявок</p>
+                            <p class="advantages__card__text">Возвращаяем некачественные заявки, если у вас попался (другой регион, неактуальнаезаявка и спам)</p>
+                        </div>
+    
+                        <div class="advantages__card mb-4 mb-lg-5 pe-lg-4 col-sm-6 col-lg-4">
+                            <img src="../img/2-advantages/ad-3.png" alt="logo" class="mb-3 advantages__card__img">
+                            <p class="after-bottom mb-2 advantages__card__title">CRM система <br> в подарок</p>
+                            <p class="advantages__card__text">Подключаем каждого клиента к CRM системе, где осуществляется прием заявок online (в реальном времени)</p>
+                        </div>
+    
+                        <div class="advantages__card mb-4 mb-lg-5 pe-lg-4 col-sm-6 col-lg-4">
+                            <img src="../img/2-advantages/ad-4.png" alt="logo" class="mb-3 advantages__card__img">
+                            <p class="after-bottom mb-2 advantages__card__title">Фиксированная <br> стоимость заявки</p>
+                            <p class="advantages__card__text">Наши заявки приносят от 30 до 50% встреч от количества лидов</p>
+                        </div>
+    
+                        <div class="advantages__card mb-4 mb-lg-5 pe-lg-4 col-sm-6 col-lg-4">
+                            <img src="../img/2-advantages/ad-5.png" alt="logo" class="mb-3 advantages__card__img">
+                            <p class="after-bottom mb-2 advantages__card__title">Используем свои <br> сайты</p>
+                            <p class="advantages__card__text">У нас уже рабочие готовые сайты, от вас требуется только телефон и почта</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <button class="btn-general advantages__btn">Хочу заявки</button>
+    
+            </div>
+        </div>
+    </section>
+    <section class="applications">
+    
+        <div class="container applications__container">
+    
+            <h2 class="applications__title title-medium">Мы предлагаем заявки</h2>
+    
+            <div class="applications__row">
+    
+                <div class="applications__card">
+    
+                    <p class="applications__card__title">На микрофинансовые <br> организации</p>
+    
+                    <div class="applications__card__price">от <span>70</span> руб/лид</div>
+    
+                    <p class="applications__card__text after-bottom">Суммы займов от 1000 до 100 тысяч рублей!</p>
+                    <p class="applications__card__text after-bottom">Качественный онлайн трафик</p>
+                    <p class="applications__card__text after-bottom">Все лиды в одни руки</p>
+                    <p class="applications__card__text after-bottom">Конверсия от заявок составит от 35%!</p>
+                    <p class="applications__card__text after-bottom">Удобная CRM - система в подарок</p>
+                    <p class="applications__card__text after-bottom">Мы используем только свои сайты</p>
+                    <p class="applications__card__text applications__card__text--last">Работа проводится по вашему региону и РФ</p>
+    
+                    <button class="btn-general applications__btn">Хочу заявки</button>
+    
+                </div>
+    
+                <div class="applications__card applications__card--big">
+                    
+                    <p class="applications__card__title">На потребительские <br> кредиты</p>
+    
+                    <div class="applications__card__price applications__card__price--big">от <span>90</span> руб/лид</div>
+    
+                    <p class="applications__card__text applications__card__text--big after-bottom">Суммы займов от 100 тысяч рублей до 15 млн!</p>
+                    <p class="applications__card__text applications__card__text--big after-bottom">Качественный онлайн трафик</p>
+                    <p class="applications__card__text applications__card__text--big after-bottom">Все лиды в одни руки</p>
+                    <p class="applications__card__text applications__card__text--big after-bottom">Конверсия от заявок составит от 35%!</p>
+                    <p class="applications__card__text applications__card__text--big after-bottom">Удобная CRM - система в подарок</p>
+                    <p class="applications__card__text applications__card__text--big after-bottom">Мы используем только свои сайты</p>
+                    <p class="applications__card__text applications__card__text--big--last">Работа проводится по вашему региону и РФ</p>
+    
+                    <button class="btn-general applications__btn applications__btn--big">Хочу заявки</button>
+    
+                </div>
+    
+                <div class="applications__card">
+                    
+                    <p class="applications__card__title">На автокредиты <br> (лизинговые компании)</p>
+    
+                    <div class="applications__card__price">от <span>70</span> руб/лид</div>
+    
+                    <p class="applications__card__text after-bottom">Суммы займов от 1000 до 100 тысяч рублей!</p>
+                    <p class="applications__card__text after-bottom">Качественный онлайн трафик</p>
+                    <p class="applications__card__text after-bottom">Все лиды в одни руки</p>
+                    <p class="applications__card__text after-bottom">Конверсия от заявок составит от 35%!</p>
+                    <p class="applications__card__text after-bottom">Удобная CRM - система в подарок</p>
+                    <p class="applications__card__text after-bottom">Мы используем только свои сайты</p>
+                    <p class="applications__card__text applications__card__text--last">Работа проводится по вашему региону и РФ</p>
+    
+                    <button class="btn-general applications__btn">Хочу заявки</button>
+    
+                </div>
+    
+            </div>
+    
+        </div>
+    
+    </section>
+    <section class="cases">
+        <div class="container cases__container">
+            <div class="cases__row">
+                <h3 class="cases__title title-medium">Наши кейсы</h3>
+    
+                <div class="cases__interface">
+                    <svg class="cases__button cases__button--prev" width="55" height="55" viewBox="0 0 55 55" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M51.4233 6.85645C51.4233 5.94722 51.0622 5.07524 50.4192 4.43233C49.7763 3.78941 48.9043 3.42822 47.9951 3.42822H6.85645C5.94722 3.42822 5.07524 3.78941 4.43233 4.43233C3.78941 5.07524 3.42822 5.94722 3.42822 6.85645V47.9951C3.42822 48.9043 3.78941 49.7763 4.43233 50.4192C5.07524 51.0622 5.94722 51.4233 6.85645 51.4233H47.9951C48.9043 51.4233 49.7763 51.0622 50.4192 50.4192C51.0622 49.7763 51.4233 48.9043 51.4233 47.9951V6.85645ZM0 6.85645C0 5.038 0.722374 3.29404 2.00821 2.00821C3.29404 0.722374 5.038 0 6.85645 0L47.9951 0C49.8136 0 51.5575 0.722374 52.8434 2.00821C54.1292 3.29404 54.8516 5.038 54.8516 6.85645V47.9951C54.8516 49.8136 54.1292 51.5575 52.8434 52.8434C51.5575 54.1292 49.8136 54.8516 47.9951 54.8516H6.85645C5.038 54.8516 3.29404 54.1292 2.00821 52.8434C0.722374 51.5575 0 49.8136 0 47.9951V6.85645ZM39.4246 25.7117C39.8792 25.7117 40.3152 25.8923 40.6366 26.2137C40.9581 26.5352 41.1387 26.9712 41.1387 27.4258C41.1387 27.8804 40.9581 28.3164 40.6366 28.6378C40.3152 28.9593 39.8792 29.1399 39.4246 29.1399H19.5649L26.9253 36.4969C27.0846 36.6562 27.2111 36.8454 27.2973 37.0537C27.3836 37.2619 27.4279 37.4851 27.4279 37.7104C27.4279 37.9358 27.3836 38.159 27.2973 38.3672C27.2111 38.5755 27.0846 38.7647 26.9253 38.924C26.7659 39.0834 26.5767 39.2098 26.3685 39.2961C26.1602 39.3823 25.9371 39.4267 25.7117 39.4267C25.4863 39.4267 25.2631 39.3823 25.0549 39.2961C24.8467 39.2098 24.6574 39.0834 24.4981 38.924L14.2134 28.6394C14.0538 28.4801 13.9271 28.291 13.8407 28.0827C13.7543 27.8745 13.7098 27.6512 13.7098 27.4258C13.7098 27.2003 13.7543 26.9771 13.8407 26.7688C13.9271 26.5606 14.0538 26.3714 14.2134 26.2122L24.4981 15.9275C24.8199 15.6057 25.2565 15.4248 25.7117 15.4248C26.1669 15.4248 26.6034 15.6057 26.9253 15.9275C27.2471 16.2494 27.4279 16.6859 27.4279 17.1411C27.4279 17.5963 27.2471 18.0328 26.9253 18.3547L19.5649 25.7117H39.4246Z" fill="#4E74B2"/>
+                    </svg>
+        
+                    <svg class="cases__button cases__button--next" width="55" height="55" viewBox="0 0 55 55" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M3.42822 47.9951C3.42822 48.9043 3.78941 49.7763 4.43233 50.4192C5.07524 51.0622 5.94722 51.4233 6.85645 51.4233L47.9951 51.4233C48.9043 51.4233 49.7763 51.0622 50.4192 50.4192C51.0622 49.7763 51.4233 48.9043 51.4233 47.9951L51.4233 6.85645C51.4233 5.94722 51.0622 5.07524 50.4192 4.43233C49.7763 3.78941 48.9043 3.42822 47.9951 3.42822L6.85645 3.42822C5.94722 3.42822 5.07524 3.78941 4.43233 4.43233C3.78941 5.07524 3.42822 5.94722 3.42822 6.85645L3.42822 47.9951ZM54.8516 47.9951C54.8516 49.8136 54.1292 51.5575 52.8434 52.8434C51.5575 54.1292 49.8136 54.8516 47.9951 54.8516L6.85645 54.8516C5.038 54.8516 3.29404 54.1292 2.00821 52.8434C0.722374 51.5575 0 49.8136 0 47.9951L0 6.85645C0 5.038 0.722374 3.29404 2.00821 2.00821C3.29404 0.722374 5.038 0 6.85645 0L47.9951 0C49.8136 0 51.5575 0.722374 52.8434 2.00821C54.1292 3.29404 54.8516 5.038 54.8516 6.85645L54.8516 47.9951ZM15.427 29.1399C14.9724 29.1399 14.5364 28.9593 14.2149 28.6378C13.8935 28.3164 13.7129 27.8804 13.7129 27.4258C13.7129 26.9712 13.8935 26.5352 14.2149 26.2137C14.5364 25.8923 14.9724 25.7117 15.427 25.7117H35.2867L27.9263 18.3547C27.7669 18.1953 27.6405 18.0061 27.5543 17.7979C27.468 17.5897 27.4236 17.3665 27.4236 17.1411C27.4236 16.9157 27.468 16.6926 27.5543 16.4843C27.6405 16.2761 27.7669 16.0869 27.9263 15.9275C28.0857 15.7682 28.2749 15.6417 28.4831 15.5555C28.6913 15.4692 28.9145 15.4248 29.1399 15.4248C29.3653 15.4248 29.5885 15.4692 29.7967 15.5555C30.0049 15.6417 30.1941 15.7682 30.3535 15.9275L40.6382 26.2122C40.7978 26.3714 40.9244 26.5606 41.0108 26.7688C41.0973 26.9771 41.1417 27.2003 41.1417 27.4258C41.1417 27.6512 41.0973 27.8745 41.0108 28.0827C40.9244 28.291 40.7978 28.4801 40.6382 28.6394L30.3535 38.924C30.0316 39.2459 29.5951 39.4267 29.1399 39.4267C28.6847 39.4267 28.2482 39.2459 27.9263 38.924C27.6044 38.6022 27.4236 38.1656 27.4236 37.7104C27.4236 37.2553 27.6044 36.8187 27.9263 36.4969L35.2867 29.1399H15.427Z" fill="#4E74B2"/>
+                    </svg>
+                </div>
+            </div>
+            <div class="cases__slider">
+    
+                <div class="cases__slider__card cases__slider__card--active">
+                    <img src="../img/4-cases/img.png" alt="cases">
+                </div>
+        
+                <div class="cases__slider__card">
+                    <img src="../img/4-cases/img1.png" alt="cases">
+                </div>
+        
+                <div class="cases__slider__card">
+                    <img src="../img/4-cases/img2.png" alt="cases">
+                </div>
+    
+                <div class="cases__slider__card">
+                    <img src="../img/4-cases/img3.png" alt="cases">
+                </div>
+        
+            </div>
+    
+            <div class="cases__window cases__window--center">
+                <div class="cases__field cases__field--center">
+    
+                    <div class="cases__field__card cases__field__card--center">
+                        <img src="../img/4-cases/imgC.png" alt="cases">
+                    </div>
+    
+                    <div class="cases__field__card cases__field__card--center">
+                        <img src="../img/4-cases/img1C.png" alt="cases">
+                    </div>
+    
+                    <div class="cases__field__card cases__field__card--center">
+                        <img src="../img/4-cases/img2C.png" alt="cases">
+                    </div>
+    
+                    <div class="cases__field__card cases__field__card--center">
+                        <img src="../img/4-cases/img3C.png" alt="cases">
+                    </div>
+    
+                </div>
+            </div>
+            <div class="cases__interface--small cases__interface--small--center">
+                <svg class="cases__button--small cases__button--small--inactive cases__button--prev--center" width="31" height="31" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M31 3.87549C31 2.84777 30.5917 1.86215 29.865 1.13545C29.1383 0.408747 28.1527 0.000488281 27.125 0.000488281L3.875 0.000488281C2.84729 0.000488281 1.86167 0.408747 1.13496 1.13545C0.408259 1.86215 0 2.84777 0 3.87549L0 27.1255C0 28.1532 0.408259 29.1388 1.13496 29.8655C1.86167 30.5922 2.84729 31.0005 3.875 31.0005L27.125 31.0005C28.1527 31.0005 29.1383 30.5922 29.865 29.8655C30.5917 29.1388 31 28.1532 31 27.1255L31 3.87549ZM22.2812 16.4692H11.0573L15.2171 20.6271C15.399 20.809 15.5012 21.0557 15.5012 21.313C15.5012 21.5702 15.399 21.817 15.2171 21.9989C15.0352 22.1808 14.7885 22.283 14.5312 22.283C14.274 22.283 14.0273 22.1808 13.8454 21.9989L8.03288 16.1864C7.94266 16.0964 7.87108 15.9895 7.82224 15.8718C7.77341 15.7541 7.74827 15.6279 7.74827 15.5005C7.74827 15.3731 7.77341 15.2469 7.82224 15.1292C7.87108 15.0115 7.94266 14.9046 8.03288 14.8146L13.8454 9.00211C14.0273 8.82021 14.274 8.71802 14.5313 8.71802C14.7885 8.71802 15.0352 8.82021 15.2171 9.00211C15.399 9.18402 15.5012 9.43074 15.5012 9.68799C15.5012 9.94524 15.399 10.192 15.2171 10.3739L11.0573 14.5317L22.2812 14.5317C22.5382 14.5317 22.7846 14.6338 22.9663 14.8155C23.1479 14.9972 23.25 15.2436 23.25 15.5005C23.25 15.7574 23.1479 16.0038 22.9663 16.1855C22.7846 16.3672 22.5382 16.4692 22.2812 16.4692Z" fill="#4E74B2"/>
+                </svg>                
+    
+                <svg class="cases__button--small cases__button--next--center" width="31" height="31" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 27.1255C0 28.1532 0.408258 29.1388 1.13496 29.8655C1.86166 30.5922 2.84729 31.0005 3.875 31.0005H27.125C28.1527 31.0005 29.1383 30.5922 29.865 29.8655C30.5917 29.1388 31 28.1532 31 27.1255V3.87549C31 2.84777 30.5917 1.86215 29.865 1.13545C29.1383 0.408746 28.1527 0.000488281 27.125 0.000488281L3.875 0.000488281C2.84729 0.000488281 1.86166 0.408746 1.13496 1.13545C0.408258 1.86215 0 2.84777 0 3.87549L0 27.1255ZM8.71875 14.5317H19.9427L15.7829 10.3739C15.601 10.192 15.4988 9.94524 15.4988 9.68799C15.4988 9.43074 15.601 9.18402 15.7829 9.00211C15.9648 8.82021 16.2115 8.71801 16.4688 8.71801C16.726 8.71801 16.9727 8.82021 17.1546 9.00211L22.9671 14.8146C23.0573 14.9046 23.1289 15.0115 23.1778 15.1292C23.2266 15.2469 23.2517 15.3731 23.2517 15.5005C23.2517 15.6279 23.2266 15.7541 23.1778 15.8718C23.1289 15.9895 23.0573 16.0964 22.9671 16.1864L17.1546 21.9989C16.9727 22.1808 16.726 22.283 16.4688 22.283C16.2115 22.283 15.9648 22.1808 15.7829 21.9989C15.601 21.817 15.4988 21.5702 15.4988 21.313C15.4988 21.0557 15.601 20.809 15.7829 20.6271L19.9427 16.4692H8.71875C8.46182 16.4692 8.21542 16.3672 8.03374 16.1855C7.85206 16.0038 7.75 15.7574 7.75 15.5005C7.75 15.2436 7.85206 14.9972 8.03374 14.8155C8.21542 14.6338 8.46182 14.5317 8.71875 14.5317Z" fill="#4E74B2"/>
+                </svg>           
+            </div>
+    
+            <div class="cases__window cases__window--mobile">
+                <div class="cases__field cases__field--mobile">
+    
+                    <div class="cases__field__card--mobile">
+                        <img src="../img/4-cases/imgM.png" alt="cases">
+                    </div>
+    
+                    <div class="cases__field__card--mobile">
+                        <img src="../img/4-cases/img1M.png" alt="cases">
+                    </div>
+    
+                    <div class="cases__field__card--mobile">
+                        <img src="../img/4-cases/img2M.png" alt="cases">
+                    </div>
+    
+                    <div class="cases__field__card--mobile">
+                        <img src="../img/4-cases/img3M.png" alt="cases">
+                    </div>
+    
+                </div>
+            </div>
+            <div class="cases__interface--small cases__interface--small--mobile">
+                <svg class="cases__button--small cases__button--small--inactive cases__button--prev--mobile" width="31" height="31" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M31 3.87549C31 2.84777 30.5917 1.86215 29.865 1.13545C29.1383 0.408747 28.1527 0.000488281 27.125 0.000488281L3.875 0.000488281C2.84729 0.000488281 1.86167 0.408747 1.13496 1.13545C0.408259 1.86215 0 2.84777 0 3.87549L0 27.1255C0 28.1532 0.408259 29.1388 1.13496 29.8655C1.86167 30.5922 2.84729 31.0005 3.875 31.0005L27.125 31.0005C28.1527 31.0005 29.1383 30.5922 29.865 29.8655C30.5917 29.1388 31 28.1532 31 27.1255L31 3.87549ZM22.2812 16.4692H11.0573L15.2171 20.6271C15.399 20.809 15.5012 21.0557 15.5012 21.313C15.5012 21.5702 15.399 21.817 15.2171 21.9989C15.0352 22.1808 14.7885 22.283 14.5312 22.283C14.274 22.283 14.0273 22.1808 13.8454 21.9989L8.03288 16.1864C7.94266 16.0964 7.87108 15.9895 7.82224 15.8718C7.77341 15.7541 7.74827 15.6279 7.74827 15.5005C7.74827 15.3731 7.77341 15.2469 7.82224 15.1292C7.87108 15.0115 7.94266 14.9046 8.03288 14.8146L13.8454 9.00211C14.0273 8.82021 14.274 8.71802 14.5313 8.71802C14.7885 8.71802 15.0352 8.82021 15.2171 9.00211C15.399 9.18402 15.5012 9.43074 15.5012 9.68799C15.5012 9.94524 15.399 10.192 15.2171 10.3739L11.0573 14.5317L22.2812 14.5317C22.5382 14.5317 22.7846 14.6338 22.9663 14.8155C23.1479 14.9972 23.25 15.2436 23.25 15.5005C23.25 15.7574 23.1479 16.0038 22.9663 16.1855C22.7846 16.3672 22.5382 16.4692 22.2812 16.4692Z" fill="#4E74B2"/>
+                </svg>                
+    
+                <svg class="cases__button--small cases__button--next--mobile" width="31" height="31" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 27.1255C0 28.1532 0.408258 29.1388 1.13496 29.8655C1.86166 30.5922 2.84729 31.0005 3.875 31.0005H27.125C28.1527 31.0005 29.1383 30.5922 29.865 29.8655C30.5917 29.1388 31 28.1532 31 27.1255V3.87549C31 2.84777 30.5917 1.86215 29.865 1.13545C29.1383 0.408746 28.1527 0.000488281 27.125 0.000488281L3.875 0.000488281C2.84729 0.000488281 1.86166 0.408746 1.13496 1.13545C0.408258 1.86215 0 2.84777 0 3.87549L0 27.1255ZM8.71875 14.5317H19.9427L15.7829 10.3739C15.601 10.192 15.4988 9.94524 15.4988 9.68799C15.4988 9.43074 15.601 9.18402 15.7829 9.00211C15.9648 8.82021 16.2115 8.71801 16.4688 8.71801C16.726 8.71801 16.9727 8.82021 17.1546 9.00211L22.9671 14.8146C23.0573 14.9046 23.1289 15.0115 23.1778 15.1292C23.2266 15.2469 23.2517 15.3731 23.2517 15.5005C23.2517 15.6279 23.2266 15.7541 23.1778 15.8718C23.1289 15.9895 23.0573 16.0964 22.9671 16.1864L17.1546 21.9989C16.9727 22.1808 16.726 22.283 16.4688 22.283C16.2115 22.283 15.9648 22.1808 15.7829 21.9989C15.601 21.817 15.4988 21.5702 15.4988 21.313C15.4988 21.0557 15.601 20.809 15.7829 20.6271L19.9427 16.4692H8.71875C8.46182 16.4692 8.21542 16.3672 8.03374 16.1855C7.85206 16.0038 7.75 15.7574 7.75 15.5005C7.75 15.2436 7.85206 14.9972 8.03374 14.8155C8.21542 14.6338 8.46182 14.5317 8.71875 14.5317Z" fill="#4E74B2"/>
+                </svg>           
+            </div>
+    
+        </div>
+    </section>
+    <section class="we">
+        <div class="container">
+            <div class="we__box">
+                <h3 class="title-medium we__title">О нас</h3>
+                <p class="we__text we__text--first">Уже больше 5 лет мы работаем с Кредитными брокерами по всей России и создали и протестировали 10-ки сайтов и помогли заказчикам выделиться среди конкурентов  и повысить окупаемость инвестиций в рекламу на 1000%.</p>
+                <p class="we__text">Повышаем продажи и приводим тех клиентов, которые готовы покупать.</p>
+            </div>
+        </div>
+    </section>
+    <section class="work">
+        <div class="work__container container">
+    
+                <h3 class="title-medium work__title">Как мы работаем</h3>
+    
+                <div class="work__row">
+    
+                    <div class="work__card work__card--1">
+                        <div class="work__card__box">
+                            <h5 class="work__card__title">Подготовка <br> к работе</h5>
+                            <p class="work__card__text">Настраиваем сайт для вашего города, подключаем систему аналитики</p>
+                        </div>
+                    </div>
+                    
+                    <div class="work__card work__card--2">
+                        <div class="work__card__box">
+                            <h5 class="work__card__title">Подключаем <br> CRM систему</h5>
+                            <p class="work__card__text">Подключаем CRM систему и выдаем доступ заказчику, проводим инструктаж по работе</p>
+                        </div>
+                    </div>
+    
+                    <div class="work__card work__card--3">
+                        <div class="work__card__box">
+                            <h5 class="work__card__title">Настраиваем <br> рекламу</h5>
+                            <p class="work__card__text">Настройка рекламных площадок Яндекс Директ, Google Adwords, Facebook и Instagram в соответствии с Вашим ГЕО работы</p>
+                        </div>
+                    </div>
+    
+                    <div class="work__card work__card--4">
+                        <div class="work__card__box">
+                            <h5 class="work__card__title">Тестирование <br> и проверка</h5>
+                            <p class="work__card__text">Проверяем, чтобы работали все кнопки, формы заявок и SRM система</p>
+                        </div>
+                    </div>
+    
+                    <div class="work__card work__card--5">
+                        <div class="work__card__box">
+                            <h5 class="work__card__title">Запускаем <br> трафик</h5>
+                            <p class="work__card__text">Трафик запущен и идут заявки.</p>
+                        </div>
+                    </div>
+    
+                </div>
+        </div>
+    </section>
+    <section class="form">
+        <img src="../img/7-big-form/img.png" alt="img" class="form__img">
+        <div class="form__container container">
+                <form class="form__form" action="#">
+                    <div class="form__form__box">
+                        <h4 class="title-medium form__title">Хочу заявки!</h4>
+                        <p class="form__text">Для получения заявок, оставьте номер телефона и ваше имя. <br> Наш менеджер расскажет вам все подробнее.</p>
+        
+                        <div class="form__input-group">
+                            <input class="form__input" placeholder="Ваше имя" type="text">
+                        </div>
+        
+                        <div class="form__input-group">
+                            <input class="form__input" placeholder="+7 (___) ___ - __ - __" type="tel">
+                        </div>
+                        <button class="btn-general form__btn" type="submit">Хочу заявки!</button>
+                    </div>
+                </form>
+        </div>
+    </section>
+    <section class="thanks">
+        <img src="../img/8-thanks/img.png" alt="dots" class="thanks__img">
+        <div class="thanks__container container">
+            <div class="thanks__box">
+                <h5 class="title-medium thanks__title">Спасибо <br> за внимание!</h5>
+                <p class="thanks__text">Просто свяжитесь с нами удобным для Вас способом,  и наш менеджер с удовольствием ответит на ваши вопросы.</p>
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        <img src="../img/footer/img.png" alt="dots" class="footer__img">
+        <div class="container">
+            <div class="footer__box">
+                <img class="footer__logo" src="../img/footer/logo.png" alt="attantion">
+                <p class="footer__text">Мы берем <span>только одного партнера</span> в вашем регионе и <span>не работаем с конкурентами</span></p>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/main.min.js"></script>
+</body>
+
+</html>

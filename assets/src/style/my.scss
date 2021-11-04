@@ -1,0 +1,101 @@
+
+.after-bottom {
+    &::after {
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: -5px;
+        height: 2px;
+        width: 100%;
+        max-width: 400px;
+        background: linear-gradient(90deg, rgba(28, 195, 195, 0) 0%, rgba(28, 195, 195, 0.83) 49.65%, rgba(28, 195, 195, 0) 100%);
+        border-radius: 10px;
+    }
+}
+
+// header
+.header-main {
+    padding-bottom: 185px;
+}
+.header-nav {
+    margin-bottom: 85px;
+}
+.title-header {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 130.02%;
+    margin-bottom: 63px;
+}
+.title-header span {
+    text-transform: uppercase;
+    color: #4e74b2;
+    line-height: 78px;
+    font-size: 60px;
+}
+.title-header-decor {
+    position: absolute;
+    left: 205px;
+    bottom: -22px;
+}
+.header-list {
+    width: 975px;
+    border-radius: 10px;
+    box-shadow: 0px 20px 20px -8px rgba(183, 183, 183, 0.13);
+}
+.header-list-item {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    color: #3d3d3f;
+    position: relative;
+    padding: 0 30px;
+}
+.header-list-item {
+    &::before {
+        position: absolute;
+        right: 0;
+        top: 0;
+        height: 100%;
+        width: 3px;
+        display: table;
+        background-color: #f8f8f8;
+        content: "";
+    }
+    &:last-child::before {
+        display: none;
+    }
+}
+.header-img {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+// header
+
+// advantages
+
+// advantages
+
+// applications
+// applications
+
+// cases
+// cases
+
+// about-us
+// about-us
+
+// working
+// working
+
+// big-form
+// big-form
+
+// thanks
+// thanks
+
+// footer
+// footer

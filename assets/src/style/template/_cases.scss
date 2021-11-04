@@ -1,0 +1,103 @@
+.cases {
+    padding-top: 160px;
+    padding-bottom: 80px;
+    background-color: #ffffff;
+    &__window {
+        display: none;
+        overflow: hidden;
+        width: 100%;
+        padding-left: 10px;
+        margin-bottom: 20px;
+    }
+    &__field {
+        display: flex;
+        transition: 0.3s;
+        &__card {
+            margin-right: 25px;
+            min-width: 500px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            &:last-of-type {
+                margin-right: 0;
+            }
+            &--mobile {
+                width: 280px;
+                margin-right: 20px;
+                &:last-of-type {
+                    margin-right: 0;
+                }
+            }
+        }
+    }
+    &__row {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 85px;
+    }
+    &__interface {
+        display: flex;
+        &--small {
+            justify-content: center;
+            &--center {
+                display: none;
+            }
+            &--mobile {
+                display: none;
+            }
+        }
+    }
+    &__button {
+        cursor: pointer;
+        &--prev {
+            margin-right: 20px;
+        }
+        &--small {
+            cursor: pointer;
+            border-radius: 5px;
+            &--inactive {
+                background-color: #4E74B2;
+                border: 2px solid #4E74B2;
+                path {
+                    fill: #ffffff;
+                }
+            }
+            &:first-of-type {
+                margin-right: 20px;
+            }
+        }
+    }
+    
+    &__slider {
+        width: 650px;
+        position: relative;
+        /* perspective: 3000px; */
+        margin: auto;
+        height: 410px;
+        transition: 0.5s;
+        transform-style: preserve-3d;
+        transform-origin: center center -250px;
+    }
+    
+    &__slider__card {
+        width: 650px;
+        height: 100%;
+        position: absolute;
+        cursor: pointer;
+        transform-origin: center center;
+        transition: 0.5s;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        img {
+            transition: 0.3s;
+            width: 80%;
+        }
+        &--active {
+            img {
+                width: 100%;
+            }
+        }
+    }
+}

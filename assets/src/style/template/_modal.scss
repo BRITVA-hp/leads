@@ -1,0 +1,203 @@
+// modal
+.btn-modal {
+    max-width: 270px;
+    padding: 15px 0;
+    font-size: 20px;
+}
+
+.modal {
+    visibility: hidden;
+    opacity: 0;
+    position: fixed;
+    z-index: 199;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba($color: #000000, $alpha: 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    overflow: auto;
+    &--active {
+        visibility: visible;
+        opacity: 1;
+    }
+    &__decor {
+        display: none;
+        position: absolute;
+        left: 2px;
+        top: 2px;
+    }
+    &__btn {
+        width: 100%;
+        max-width: none;
+    }
+    &__content {
+
+    }
+    &__logo {
+        position: absolute;
+        top: 20px;
+        left: 30px;
+    }
+    &__close {
+        position: absolute;
+        top: 22px;
+        right: 33px;
+        cursor: pointer;
+    }
+    &-dialog {
+        max-width: 1060px;
+        background-color: #F8F8F8;
+        padding: 125px 550px 84px 135px;
+        position: relative;
+        background-image: url(../img/0-modal/modal-img.png);
+        background-repeat: no-repeat;
+        background-position-x: calc(100% - 50px);
+        background-position-y: center;
+    }
+    &-text {
+        font-family: "Cabin", sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 22px;
+        max-width: 435px;
+        margin-bottom: 25px;
+    }
+    &-header .btn-close {
+        padding: 0;
+        margin: 0;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        z-index: 100;
+        padding: 5px;
+    }
+    &-input {
+        max-width: 375px;
+        width: 100%;
+        padding: 20px 0 20px 30px;
+        border: 1px solid #c8c8c8;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 19px;
+        color: #c4c4c4;
+        margin-bottom: 20px;
+        &:hover {
+            border: 1px solid #c8c8c8;
+        }
+        &:focus {
+            border: 1px solid #c8c8c8;
+        }
+    }
+    &-header {
+        position: relative;
+        padding: 0;
+    }
+    &-img {
+        right: 0;
+        top: 75px;
+    }
+    &-thanks {
+        z-index: 200;
+        position: fixed;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        &__dialog {
+            background-color: #F8F8F8;
+            padding: 200px 530px 200px 186px;
+            position: relative;
+            background-image: url(../img/0-modal/thanks-plane.png);
+            background-repeat: no-repeat;
+            background-position-x: calc(100% - 150px);
+            background-position-y: center;
+        }
+        &__close {
+            top: 22px;
+            right: 33px;
+            position: absolute;
+        }
+        &__logo {
+            position: absolute;
+            top: 17px;
+            left: 29px;
+        }
+    }
+    &-text {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 21px;
+    }
+
+}
+
+
+
+.form-modal {
+    max-width: 375px;
+    width: 100%;
+}
+
+
+.label-radio {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    font-size: 12px;
+}
+
+.real-radio {
+    display: none;
+}
+
+.custom-radio {
+    position: relative;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin-right: 16px;
+    vertical-align: middle;
+    background-color: #142239;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.custom-radio img {
+    right: 0;
+    position: absolute;
+    top: 0;
+    transform: translate(-27%, 35%);
+}
+
+.custom-radio--text {
+    width: 300px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+}
+.label-radio input:checked + .custom-radio {
+    background-color: #0400f7;
+}
+.title-modal {
+    font-family: "Segoe UI";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 100%;
+    color: #397abc;
+    margin-bottom: 10px;
+}
+
+.closed {
+    top: 15px;
+    right: 15px;
+    z-index: 100;
+}

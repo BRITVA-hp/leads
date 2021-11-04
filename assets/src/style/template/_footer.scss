@@ -1,0 +1,30 @@
+.footer {
+    position: relative;
+    background-color: #f8f8f8;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    &__box {
+        display: flex;
+        align-items: center;
+        max-width: 846px;
+        margin: auto;
+    }
+    &__logo {
+        margin-right: 45px;
+    }
+    &__img {
+        position: absolute;
+        bottom: 0;
+        right: 160px;
+    }
+    &__text {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 30px;
+        line-height: 135%;
+        color: #3D3D3F;
+        span {
+            color: #EF4D4D;
+        }
+    }
+}

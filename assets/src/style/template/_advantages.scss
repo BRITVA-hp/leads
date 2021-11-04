@@ -1,0 +1,35 @@
+.advantages {
+    padding-bottom: 330px;
+    background-image: url(../img/2-advantages/advantages-big.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: bottom;
+    background-color: #F8F8F8;
+    &__subtitle {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 30px;
+        line-height: 155%;
+    }
+    &__box {
+        max-width: 1195px;
+    }
+    &__card {
+        &__title {
+            font-family: 'Roboto', sans-serif;
+            font-style: normal;
+            font-weight: 900;
+            font-size: 24px;
+            color: #252626;
+            position: relative;
+        }
+        &__text {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 155%;
+            color: #3D3D3F;
+            max-width: 400px;
+        }
+    }
+}

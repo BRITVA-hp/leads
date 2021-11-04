@@ -1,0 +1,936 @@
+@media (max-width: 1600px) {
+    // modal
+    // modal
+
+    // header
+    // header
+
+    // advantages
+    // advantages
+
+    // applications
+    // applications
+
+    // cases
+    // cases
+
+    // about-us
+    // about-us
+
+    // working
+    // working
+
+    // big-form
+    // big-form
+
+    // thanks
+    // thanks
+
+    // footer
+    // footer
+}
+@media (max-width: 1500px) {
+    // modal
+    // modal
+
+    // header
+    // header
+
+    // advantages
+    // advantages
+
+    // applications
+    .applications {
+        &__btn {
+            width: 252px;
+            font-size: 18px;
+            padding: 14px 0;
+        }
+        &__card {
+            padding: 27px 0;
+            width: 450px;
+            background-image: url(../img/3-applications/ap-dot.png);
+            &__price {
+                font-size: 24px;
+                line-height: 28px;
+                padding: 3px 0 4px;
+                max-width: 260px;
+                margin-bottom: 25px;
+                span {
+                    font-size: 48px;
+                    line-height: 56px;
+                }
+            }
+            &__text {
+                font-size: 16px;
+                line-height: 20px;
+                margin-bottom: 20px;
+                &--last {
+                    margin-bottom: 25px;
+                }
+                &--big--last {
+                    margin-bottom: 25px;
+                }
+                &::after {
+                    width: 252px;
+                }
+            }
+        }
+    }
+    // applications
+
+    // cases
+    // cases
+
+    // about-us
+    .we {
+        background-size: 800px;
+        padding-bottom: 110px;
+    }
+    // about-us
+
+    // working
+    // working
+
+    // big-form
+    // big-form
+
+    // thanks
+    // thanks
+
+    // footer
+    // footer
+}
+@media (max-width: 1400px) {
+    // modal
+    // modal
+
+    // header
+    .header-img {
+        top: 50px;
+        width: 530px;
+    }
+    // header
+
+    // advantages
+    .advantages {
+        background-size: 600px;
+        padding-bottom: 160px;
+        margin-bottom: 100px;
+    }
+    // advantages
+
+    // applications
+    .applications {
+        &__title{
+            text-align: center;
+        }
+        &__row {
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        &__container {
+            max-width: 1000px;
+        }
+        &__card {
+            margin-bottom: 40px;
+            &:first-of-type {
+                margin-right: 40px;
+            }
+        }
+    }
+    // applications
+
+    // cases
+    // cases
+
+    // about-us
+    .we {
+        background-size: 700px;
+        padding-bottom: 60px;
+    }
+    // about-us
+
+    // working
+    // working
+
+    // big-form
+    // big-form
+
+    // thanks
+    .thanks {
+        background-position-x: calc(50% + 400px);
+        &__img {
+            bottom: 100px;
+        }
+    }
+    // thanks
+
+    // footer
+    .footer {
+        &__img {
+            right: 20px;
+        }
+    }
+    // footer
+}
+@media (max-width: 1300px) {
+    // modal
+    // modal
+
+    // header
+    // header
+
+    // advantages
+    // advantages
+
+    // applications
+    // applications
+
+    // cases
+    // cases
+
+    // about-us
+    .we {
+        background-size: 600px;
+        &__title {
+            margin-bottom: 50px;
+        }
+    }
+    // about-us
+
+    // working
+    // working
+
+    // big-form
+    // big-form
+
+    // thanks
+    // thanks
+
+    // footer
+    // footer
+}
+@media (max-width: 1200px) {
+    // modal
+    .title-modal {
+        font-size: 32px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .modal {
+        &__decor {
+            display: block;
+        }
+        &-thanks {
+            &__logo {
+                width: 90px;
+                top: 33px;
+                left: 50%;
+                transform: translateX(-50%);
+            }
+            &__close {
+                width: 20px;
+                right: 15px;
+                top: 15px;
+            }
+            &__dialog {
+                max-width: 320px;
+                width: 320px;
+                padding: 120px 25px 265px;
+                background-image: url(../img/0-modal/modal-img.png);
+                background-position-x: center;
+                background-position-y: calc(100% - 20px);
+                background-size: 220px;
+            }
+        }
+        &__btn {
+            font-size: 18px;
+        }
+        &-text {
+            font-size: 14px;
+            text-align: center;
+            margin-bottom: 22px;
+        }
+        &-input {
+            padding: 18px 28px;
+            margin-bottom: 15px;
+        }
+        &__logo {
+            width: 90px;
+            left: 50%;
+            top: 30px;
+            transform: translateX(-50%);
+        }
+        &-dialog {
+            padding: 118px 25px 48px;
+            background-image: none;
+            max-width: 320px;
+        }
+        &-input {
+            max-width: none;
+        }
+        &__close {
+            width: 20px;
+            top: 15px;
+            right: 15px;
+        }
+    }
+    // modal
+
+    // header
+    .header-main {
+        padding-bottom: 140px;
+    }
+    .header-nav {
+        margin-bottom: 50px;
+    }
+    .logo {
+        width: 150px;
+    }
+    .title-header {
+        font-size: 40px;
+        line-height: 130.02%;
+    }
+    .title-header span {
+        line-height: 59px;
+        font-size: 50px;
+    }
+    .header-list {
+        width: 730px;
+    }
+    .header-list-item {
+        font-size: 16px;
+        line-height: 22px;
+        padding: 0 15px;
+    }
+    .header-img {
+        top: 45px;
+        width: 400px;
+    }
+    .title-header-decor {
+        left: 170px;
+        bottom: -22px;
+        width: 425px;
+    }
+    // header
+
+    // advantages
+    .advantages {
+        background-size: 400px;
+        padding-bottom: 70px;
+        margin-bottom: 150px;
+    }
+    // advantages
+
+    // applications
+    // applications
+
+    // cases
+    .cases {
+        &__title {
+            padding-left: 10px;
+        }
+        &__slider {
+            display: none;
+        }
+        &__interface {
+            display: none;
+            &--small {
+                &--center {
+                    display: flex;
+                }
+            }
+        }
+        &__window {
+            &--center {
+                display: block;
+            }
+        }
+        &__container {
+            padding: 0;
+        }
+    }
+    // cases
+
+    // about-us
+    .we {
+        padding-bottom: 40px;
+        &__box {
+            max-width: 500px;
+        }
+    }
+    // about-us
+
+    // working
+    // working
+
+    // big-form
+    // big-form
+
+    // thanks
+    .thanks {
+        background-position-x: calc(50% + 300px);
+        &__box {
+            max-width: 670px;
+        }
+    }
+    // thanks
+
+    // footer
+    // footer
+}
+@media (max-width: 991px) {
+
+    .title {
+        &-medium {
+            font-size: 40px;
+        }
+    }
+
+    // modal
+    // modal
+
+    // header
+    .header-main {
+        padding-bottom: 100px;
+    }
+    .header-nav {
+        margin-bottom: 30px;
+    }
+    .logo {
+        width: 100px;
+    }
+    .title-header {
+        font-size: 30px;
+        margin-bottom: 40px;
+    }
+    .title-header span {
+        line-height: 43px;
+        font-size: 35px;
+    }
+    .title-header-decor {
+        left: 119px;
+        bottom: -16px;
+        width: 300px;
+    }
+    .header-img {
+        top: 10px;
+        width: 280px;
+    }
+    .btn-header {
+        max-width: 200px;
+    }
+    .header-list {
+        width: 660px;
+    }
+    .header-img {
+        top: 10px;
+        width: 280px;
+    }
+    // header
+
+    // advantages
+    .advantages {
+        padding-bottom: 0;
+        margin-bottom: 80px;
+        background-size: 300px;
+        background-position-x: calc(100% - 10px);
+        &__subtitle {
+            font-size: 18px;
+        }
+        &__card {
+            &__title {
+                font-size: 20px;
+            }
+            &__text {
+                font-size: 14px;
+            }
+            &__img {
+                width: 75px;
+            }
+        }
+    }
+    // advantages
+
+    // applications
+    .applications {
+        margin-top: 0;
+        padding-bottom: 30px;
+        &__btn {
+            width: 100%;
+            font-size: 16px;
+            line-height: 140%;
+        }
+        &__title {
+            margin-bottom: 35px;
+        }
+        &__card {
+            width: 280px;
+            padding: 32px 15px;
+            margin-right: 20px;
+            margin-bottom: 20px;
+            &:first-of-type {
+                margin-right: 20px;
+            }
+            &__title {
+                font-size: 20px;
+                line-height: 120%;
+                margin-bottom: 10px;
+            }
+            &__price {
+                width: 220px;
+                padding: 0;
+                font-size: 20px;
+                line-height: 20px;
+                margin-bottom: 12px;
+                span {
+                    font-size: 40px;
+                    line-height: 40px;
+                }
+            }
+            &__text {
+                font-size: 14px;
+                line-height: 135%;
+                margin-bottom: 10px;
+                &::after {
+                    width: 155px;
+                    bottom: -5px;
+                }
+                &--last, &--big--last {
+                    margin-bottom: 20px;
+                }
+            }
+        }
+    }
+    // applications
+
+    // cases
+    .cases {
+        padding-top: 80px;
+        &__row {
+            margin-bottom: 55px;
+        }
+    }
+    // cases
+
+    // about-us
+    .we {
+        background-image: url(../img/5-about-us/bgC.png);
+        background-size: 430px;
+        padding-bottom: 65px;
+        &__box {
+            max-width: 425px;
+        }
+        &__title {
+            margin-bottom: 45px;
+        }
+        &__text {
+            font-size: 22px;
+            line-height: 150%;
+            &--first {
+                margin-bottom: 20px;
+            }
+        }
+    }
+    // about-us
+
+    // working
+    .work {
+        padding-top: 80px;
+        padding-bottom: 80px;
+        &__title {
+            margin-bottom: 55px;
+        }
+    }
+    // working
+
+    // big-form
+    .form {
+        padding-top: 80px;
+        padding-bottom: 150px;
+        &__img {
+            width: 250px;
+            transform: translateX(-450px);
+        }
+        &__text {
+            font-size: 20px;
+        }
+        &__form {
+            max-width: 600px;
+            &__box {
+                padding: 40px 70px;
+            }
+            &::after {
+                width: 90%;
+            }
+        }
+    }
+    // big-form
+
+    // thanks
+    .thanks {
+        padding-top: 150px;
+        background-size: 250px;
+        &__title {
+            margin-bottom: 25px;
+        }
+        &__text {
+            font-size: 22px;
+            line-height: 130%;
+        }
+        &__box {
+            max-width: 520px;
+        }
+    }
+    // thanks
+
+    // footer
+    .footer {
+        padding-top: 35px;
+        padding-bottom: 35px;
+        &__img {
+            width: 80px;
+        }
+        &__text {
+            font-size: 20px;
+        }
+        &__box {
+            max-width: 600px;
+        }
+        &__logo {
+            width: 70px;
+            margin-right: 30px;
+        }
+    }
+    // footer
+}
+@media (max-width: 767px) {
+    // modal
+    // modal
+
+    // header
+    .header .container {
+        padding: 0;
+    }
+    .header-main {
+        padding-bottom: 80px;
+    }
+    .header-img {
+        top: 0;
+        width: 315px;
+        margin: 0 auto;
+        transform: translateY(20px);
+    }
+    .header-nav {
+        padding: 0 15px;
+        margin-bottom: 25px;
+    }
+    .logo {
+        width: 75px;
+    }
+    .title-header {
+        text-align: center;
+        font-size: 25px;
+        margin-bottom: 35px;
+    }
+    .title-header span {
+        line-height: 35px;
+        font-size: 30px;
+    }
+    .title-header-decor {
+        transform: translateX(-50%);
+        left: 50%;
+        bottom: -55px;
+        width: 265px;
+    }
+    .btn-header {
+        max-width: 340px;
+    }
+    .header-list {
+        width: 100%;
+        border: 0;
+        box-shadow: none;
+    }
+    .header-list-header {
+        width: 100%;
+        padding: 0 15px;
+        text-align: center;
+    }
+    .header-list-item {
+        padding: 10px 0;
+        background-color: #ffffff;
+        border-radius: 5px;
+        margin-bottom: 2px;
+        width: 100%;
+        &::before {
+            display: none;
+        }
+    }
+    .header-list-item br {
+        display: none;
+    }
+    // header
+
+    // advantages
+    // advantages
+
+    // applications
+    // applications
+
+    // cases
+    // cases
+
+    // about-us
+    .we {
+        background-image: url(../img/5-about-us/bgM.png);
+        background-position-x: center;
+        background-size: 320px;
+        padding-bottom: 300px;
+        &__box {
+            max-width: 100%;
+        }
+    }
+    // about-us
+
+    // working
+    .work {
+        background-color: #ffffff;
+        &__row {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, 320px);
+            grid-gap: 10px;
+        }
+        &__card {
+            background-size: 150px;
+            width: 320px;
+            height: 220px;
+            border: 2px solid #F8F8F8;
+            padding: 34px 20px 0 95px;
+            &::before {
+                left: 20px;
+                top: 34px;
+            }
+            &__title {
+                font-size: 20px;
+            }
+            &__text {
+                font-size: 14px;
+            }
+        }
+    }
+    // working
+
+    // big-form
+    .form {
+        padding-top: 0;
+        &__img {
+            transform: translateX(-380px);
+        }
+        &__form {
+            &__box {
+                max-width: 400px;
+                padding: 60px 20px;
+                background-image: url(../img/7-big-form/bgForm.png);
+                background-repeat: no-repeat;
+                background-position-x: center;
+                background-position-y: 40px;
+            }
+        }
+    }
+    // big-form
+
+    // thanks
+    .thanks {
+        background-position-x: right;
+        background-position-y: bottom;
+        background-size: 200px;
+    }
+    // thanks
+
+    // footer
+    .footer {
+        &__img {
+            display: none;
+        }
+    }
+    // footer
+}
+@media (max-width: 575px) {
+
+    .title {
+        &-medium {
+            font-size: 30px;
+        }
+    }
+
+    // modal
+    // modal
+
+    // header
+    .btn-header {
+        max-width: 280px;
+    }
+    .header-list-header {
+        padding: 0 20px;
+    }
+    .header-nav {
+        padding: 0 20px;
+    }
+    // header
+
+    // advantages
+    .advantages {
+        background-image: none;
+        &__subtitle {
+            font-size: 14px;
+            max-width: 400px;
+        }
+        &__btn {
+            width: 100%;
+            max-width: none;
+        }
+        
+    }
+    // advantages
+
+    // applications
+    .applications {
+        &__card {
+            margin-right: 0 !important;
+        }
+    }
+    // applications
+
+    // cases
+    .cases {
+        &__row {
+            margin-bottom: 35px;
+        }
+        &__window {
+            display: none;
+            &--mobile {
+                display: block;
+            }
+        }
+        &__interface {
+            &--small {
+                display: none;
+                &--mobile {
+                    display: flex;
+                }
+            }
+        }
+    }
+    // cases
+
+    // about-us
+    .we {
+        background-color: #f8f8f8;
+        &__title {
+            margin-bottom: 15px;
+        }
+        &__text {
+            font-size: 16px;
+            &--first {
+                margin-bottom: 0;
+            }
+        }
+    }
+    // about-us
+
+    // working
+    .work {
+        &__row {
+            display: flex;
+            flex-direction: column;
+            grid-gap: 0;
+        }
+        &__container {
+            padding: 0;
+        }
+        &__title {
+            padding: 0 20px;
+            margin-bottom: 35px;
+        }
+        &__card {
+            width: 100%;
+            padding-right: 0;
+            margin-bottom: 10px;
+            background-position-x: 170px;
+            &__box {
+                width: 205px;
+                padding-right: 20px;
+            }
+            &:last-of-type {
+                margin-bottom: 0;
+            }
+        }
+    }
+    // working
+
+    // big-form
+    .form {
+        padding-bottom: 28px;
+        &__container {
+            padding: 0;
+        }
+        &__input {
+            padding: 18px;
+            font-size: 14px;
+            line-height: 135%;
+        }
+        &__img {
+            display: none;
+        }
+        &__title {
+            margin-bottom: 15px;
+        }
+        &__text {
+            font-size: 14px;
+            line-height: 135%;
+        }
+        &__form {
+            &__box {
+                max-width: 320px;
+            }
+        }
+    }
+    // big-form
+
+    // thanks
+    .thanks {
+        background-image: none;
+        padding-top: 80px;
+        padding-bottom: 80px;
+        &__title {
+            margin-bottom: 15px;
+        }
+        &__text {
+            font-size: 16px;
+        }
+        &__box {
+            max-width: 100%;
+            text-align: center;
+        }
+        &__img {
+            display: none;
+        }
+    }
+    // thanks
+
+    // footer
+    .footer {
+        padding-top: 22px;
+        padding-bottom: 22px;
+        &__text {
+            font-size: 12px;
+            line-height: 135%;
+        }
+        &__logo {
+            width: 55px;
+            margin-right: 20px;
+        }
+    }
+    // footer
+}

@@ -1,0 +1,84 @@
+.work {
+    background-color: #f8f8f8;
+    padding-top: 160px;
+    padding-bottom: 160px;
+    &__title {
+        margin-bottom: 80px;
+    }
+    &__row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    &__card {
+        width: 315px;
+        height: 300px;
+        padding: 46px 16px 0 78px;
+        background-repeat: no-repeat;
+        background-position-x: right;
+        background-position-y: bottom;
+        position: relative;
+        &::before {
+            position: absolute;
+            left: 15px;
+            top: 46px;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 36px;
+            line-height: 140%;
+            color: #3D3D3F;
+            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            padding: 15px 0 15px 7px;
+        }
+        &--1 {
+            background-image: url(../img/6-working/bg1.png);
+            &::before {
+                content: '01';
+                background: linear-gradient(to right, #1CC3C3 50%, transparent 50%);
+            }
+        }
+        &--2 {
+            background-image: url(../img/6-working/bg2.png);
+            &::before {
+                content: '02';
+                background: linear-gradient(to right, #1BCA6F 50%, transparent 50%);
+            }
+        }
+        &--3 {
+            background-image: url(../img/6-working/bg3.png);
+            &::before {
+                content: '03';
+                background: linear-gradient(to right, #4E74B2 50%, transparent 50%);
+            }
+        }
+        &--4 {
+            background-image: url(../img/6-working/bg4.png);
+            &::before {
+                content: '04';
+                background: linear-gradient(to right, #DCB884 50%, transparent 50%);
+            }
+        }
+        &--5 {
+            background-image: url(../img/6-working/bg5.png);
+            &::before {
+                content: '05';
+                background: linear-gradient(to right, #EF4D4D 50%, transparent 50%);
+            }
+        }
+        &__title {
+            font-family: 'Roboto', sans-serif;
+            font-style: normal;
+            font-weight: 900;
+            font-size: 24px;
+            line-height: 120%;
+            color: #202020;
+            margin-bottom: 5px;
+        }
+        &__text {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 155%;
+            color: #202020;
+        }
+    }
+}

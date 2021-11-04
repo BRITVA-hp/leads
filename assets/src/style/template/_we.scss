@@ -1,0 +1,25 @@
+.we {
+    padding-top: 35px;
+    padding-bottom: 160px;
+    background-image: url(../img/5-about-us/bg.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: bottom;
+    background-color: #ffffff;
+    &__box {
+        max-width: 700px;
+    }
+    &__title {
+        margin-bottom: 80px;
+    }
+    &__text {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 28px;
+        line-height: 158%;
+        color: #202020;
+        &--first {
+            margin-bottom: 30px;
+        }
+    }
+}

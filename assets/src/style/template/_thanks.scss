@@ -1,0 +1,31 @@
+.thanks {
+    background-color: #ffffff;
+    padding-top: 220px;
+    padding-bottom: 220px;
+    background-image: url(../img/8-thanks/bg.png);
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: calc(50% + 500px);
+    position: relative;
+    &__container {
+        max-width: 1350px;
+    }
+    &__img {
+        position: absolute;
+        left: 0;
+        bottom: 120px;
+    }
+    &__title {
+        margin-bottom: 40px;
+    }
+    &__text {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 28px;
+        line-height: 35px;
+        color: #3D3D3F;
+    }
+    &__box {
+        max-width: 870px;
+    }
+}
